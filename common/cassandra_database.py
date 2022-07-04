@@ -9,7 +9,7 @@ from .database import Database
 
 def connect_database():
     cloud_config = {
-        'secure_connect_bundle': 'E:\\PythonTraining\\Datastax\\secure-connect-db1.zip'
+        'secure_connect_bundle': 'secure-connect-db1.zip'
     }
     auth_provider = PlainTextAuthProvider('JCQsdZKAaPYDalZjBcXbIdQt',
                                           '1bpGqn6G1rot8P+vq7,Y_JyOmd,qnRU8ima-sHlmw--Hip_dMFMiFbzNmWejTh68vFPgs.be2oBKSAdQbNW_ts3KJT6.B20ELtlqmceaHc6eSeyqcwt9BYd.N1Nd3X_9')
